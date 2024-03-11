@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+}
+
+#blog-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#button {
+  margin-top: 30px;  
+}
+
+#back-button {
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+}
+
+#border {
+    border: 5px solid black;
+    height: 5px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+#main-blog div h2 {
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+#main-blog div {
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#main-blog div #content {
+    margin-left: 40px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#main-blog div #post {
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+footer {
+    text-align: center;
+}

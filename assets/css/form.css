@@ -1,0 +1,123 @@
+/*added variable for font-family*/
+:root {
+    --font : Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+      
+}
+
+#mode {
+    margin-left: 1390px;
+    margin-top: 30px;
+}
+
+/*added this classto add from js*/
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+#hr {
+    border: 5px solid black;
+    height: 5px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    width: 100%;
+}
+    
+
+
+#container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 0px;
+    
+}
+
+#container section {
+    width:705px;
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 30px;
+    
+}
+
+#section-1 {
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 0 5px;
+}
+
+#section-2 {
+    border-style: solid;
+    border-color: black;
+    border-width: 0 5px 0 0;
+    margin-left: 150px;
+    margin-right: 5px;
+}
+
+#circle {
+    background-image: linear-gradient(to top, rgb(58, 58, 24), yellow, rgb(248, 242, 158));
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#circle h2 {
+    font-size: 2.5rem;
+    font-family: var(--font);
+    color: aliceblue;
+}
+
+form {
+    width: 500px;
+}
+
+h1 {
+    margin-left: 140px;
+    font-family: var(--font);
+}
+
+label {
+    line-height: 40px;
+    font-family: var(--font);
+}
+
+.home-input {
+    width: 600px;
+    height: 25px;
+
+}
+
+.home-content {
+    width: 600px;
+    height: 80px;
+}
+
+#submit {
+    width: 610px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    margin-top: 15px;
+    font-family: var(--font);
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
