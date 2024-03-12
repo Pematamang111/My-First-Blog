@@ -8,20 +8,20 @@
 </head>
 <body>
      
-    <button id="mode">sunmoon</button>
+    <button id="mode"><img src="./assets/image/mode.jpg" alt="half sun and half moon "></button>
 
     <hr id="hr">
 
     <main id="container">
         <section id="section-1">
             <h1>What's on your mind?</h1>
-                <form action="/post">
+                <form method="submit" action="/post">
                     <label for="name" name="name">Username</label> <br>
-                    <input class="home-input" type="text" name="name"> <br>
-                    <label for="text" name="text">Title</label> <br>
-                    <input class="home-input" type="text" name="text"> <br>
-                    <label for="text" name="text">Content</label><br>
-                    <input class="home-content" type="text" name="text"> <br>
+                    <input class="home-input" id="name-text" type="text" name="name"> <br>
+                    <label for="text" name="title">Title</label> <br>
+                    <input class="home-input" id="title-text" name="text"> <br>
+                    <label for="text" name="content">Content</label><br>
+                    <textarea name="content" id="content-text" cols="75" rows="10"></textarea>
                 </form>
                 <button id="submit">Submit</button>
         </section>

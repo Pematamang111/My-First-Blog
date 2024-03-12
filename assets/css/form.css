@@ -1,12 +1,14 @@
 /*added variable for font-family*/
 :root {
-    --font : Arial, Helvetica, sans-serif;
+    --font: Arial, Helvetica, sans-serif;
+    --darkMode: black;
+    --lightMode: white;
 }
 
 body {
     margin: 0;
-    background-color: white;
-    color: black;
+    background-color: var(--lightMode);
+    color: var(--darkMode);
       
 }
 
@@ -17,8 +19,13 @@ body {
 
 /*added this classto add from js*/
 .dark-mode {
-    background-color: black;
-    color: white;
+    background-color: var(--darkMode);
+    color: var(--lightMode);
+  }
+
+#mode img {
+    height: 20px;
+    width: 20px;
   }
 
 #hr {
