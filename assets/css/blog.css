@@ -13,15 +13,18 @@ body {
 
 #mode img {
     height: 25px;
-    width: 25px;
-    margin-right: -80px;
+    width: 30px;
+    margin-right: 80px;
     margin-bottom: -8px;
     border: 1px solid black;
     
   }
 
   #mode {
+    margin-right: 100px;
     height: 0px;
+    width: 0px;
+    
   }
 
 .dark-mode {
