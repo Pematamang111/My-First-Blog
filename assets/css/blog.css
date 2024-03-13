@@ -16,7 +16,12 @@ body {
     width: 25px;
     margin-left: -80px;
     margin-bottom: -8px;
+    border: 1px solid black;
     
+  }
+
+  #mode {
+    height: 0px;
   }
 
 .dark-mode {
@@ -80,6 +85,8 @@ button #mode {
 aside p a {
     color: var(--darkMode);
     margin-left: 5px;
+    text-decoration: underline;
+    visibility: visible;
 }
 
 footer img {
