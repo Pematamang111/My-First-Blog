@@ -49,7 +49,7 @@ body {
 #container section {
     width:705px;
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 45px;
     padding-left: 30px;
     
 }
@@ -76,6 +76,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 150px;
     
 }
 
@@ -100,18 +101,13 @@ label {
 }
 
 .home-input {
-    width: 600px;
+    width: 520px;
     height: 25px;
 
 }
 
-.home-content {
-    width: 600px;
-    height: 80px;
-}
-
 #submit {
-    width: 610px;
+    width: 520px;
     height: 30px;
     color: white;
     background-color: black;
