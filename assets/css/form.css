@@ -29,7 +29,7 @@ body {
   }
 
 #hr {
-    border: 5px solid black;
+    border: 5px solid var(--darkMode);
     height: 5px;
     margin-top: 30px;
     margin-bottom: 0;
@@ -56,13 +56,13 @@ body {
 
 #section-1 {
     border-style: solid;
-    border-color: black;
+    border-color: var(--darkMode);
     border-width: 0 0 0 5px;
 }
 
 #section-2 {
     border-style: solid;
-    border-color: black;
+    border-color: var(--darkMode);
     border-width: 0 5px 0 0;
     margin-left: 150px;
     margin-right: 5px;
@@ -83,7 +83,7 @@ body {
 #circle h2 {
     font-size: 2.5rem;
     font-family: var(--font);
-    color: aliceblue;
+    color: var(--lightMode);
 }
 
 form {
@@ -109,11 +109,11 @@ label {
 #submit {
     width: 520px;
     height: 30px;
-    color: white;
-    background-color: black;
+    color: var(--lightMode);
+    background-color: var(--darkMode);
     margin-top: 15px;
     font-family: var(--font);
-    border: 1px solid white;
+    border: 1px solid var(--lightMode);
 }
 
 

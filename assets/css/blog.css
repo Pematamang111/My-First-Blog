@@ -6,8 +6,8 @@
 
 body {
     width: 100%;
-    background-color: aliceblue;
-    color: black;
+    background-color: var(--lightMode);
+    color: var(--darkMode);
     font-family: var(--font);
 }
 
@@ -16,7 +16,7 @@ body {
     width: 30px;
     margin-right: 80px;
     margin-bottom: -8px;
-    border: 1px solid black;
+    border: 1px solid var(--darkMode);
     
   }
 
@@ -28,8 +28,8 @@ body {
   }
 
 .dark-mode {
-    background-color: black;
-    color: aliceblue;
+    background-color: var(--darkMode);
+    color: var(--lightMode);
 }
 
 #blog-header {
@@ -43,8 +43,8 @@ body {
 }
 
 #back-button {
-    background-color: black;
-    color: white;
+    background-color: var(--darkMode);
+    color: var(--lightMode);
     width: 100px;
     height: 30px;
     margin-right: 50px;
@@ -56,7 +56,7 @@ button #mode {
 } 
 
 #border {
-    border: 5px solid black;
+    border: 5px solid var(--darkMode);
     height: 5px;
     margin-top: 0px;
     margin-bottom: 0;
@@ -69,7 +69,7 @@ button #mode {
 }
 
 #main-blog div {
-    border: 3px solid black;
+    border: 3px solid var(--darkMode);
     margin-top: 10px;
     margin-bottom: 10px;
 }
