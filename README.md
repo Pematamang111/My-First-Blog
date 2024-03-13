@@ -21,10 +21,10 @@ N/A
 Please refer to the LICENSE in the repo.
 
 ## Screenshot
-1 (./assets/screenshot1.png)
-2 (./assets/screenshot2.png)
-3 (./assets/screenshot3.png)
-4 (./assets/screenshot4.png)
+1 (./assets/image/Screenshot1.png)
+2 (./assets/image/Screenshot2.png)
+3 (./assets/image/Screenshot3.png)
+4 (./assets/image/Screenshot4.png)
 
 
 
