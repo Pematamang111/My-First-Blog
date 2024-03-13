@@ -26,7 +26,6 @@ Please refer to the LICENSE in the repo.
 3 (./assets/image/Screenshot3.png)
 4 (./assets/image/Screenshot4.png)
 
-
-
 ## Deployed link
 Here is my deployed link for My First Blog.
+https://pematamang111.github.io/My-First-Blog/
